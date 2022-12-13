@@ -1,5 +1,5 @@
 describe('go home page', () => {
-  it('passes', () => {
+  it.only('passes', () => {
     cy.visit('https://www.joyeriarte.com')
   })
 })
